@@ -12,7 +12,7 @@ using TShockAPI.Hooks;
 
 namespace Statistics
 {
-	[ApiVersion(1, 17)]
+	[ApiVersion(1, 20)]
 	public class Statistics : TerrariaPlugin
 	{
 		internal static Database tshock;

@@ -281,7 +281,7 @@ namespace Statistics
 				}
 				catch (MySqlException x)
 				{
-					Log.Error(x.ToString());
+                    TShockAPI.TShock.Log.Error(x.ToString());
 					throw new Exception("MySQL not setup correctly.");
 				}
 			}
